@@ -1,0 +1,29 @@
+# Video: quá nặng và có hình khách hàng — chỉ lưu trên máy
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.m4v
+*/mau/*
+*/goc/*
+*/moi/*
+*/xuat/*
+!*/mau/.gitkeep
+!*/goc/.gitkeep
+!*/moi/.gitkeep
+!*/xuat/.gitkeep
+
+# Nhạc nền: có bản quyền
+*/nhạc nền */
+*.mp3
+*.m4a
+
+# Font: tải lại bằng chung/scripts/tai_font.sh
+chung/fonts/*
+!chung/fonts/.gitkeep
+
+# Linh tinh
+.DS_Store
+__pycache__/
+*.pyc
+.claude/settings.local.json
